@@ -36,7 +36,7 @@ def main():
         sys.exit(2)
 
     what = 'SYN_RECV'
-    thresh = 10
+    thresh = 50
     loop = 0
     for o, a in opts:
         if o in ("-h", "--help"):
